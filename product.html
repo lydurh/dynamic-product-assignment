@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/product-style.css" />
+    <title>Product</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo">LHclothing</a>
+        <nav>
+          <a href="#">Shop all</a>
+          <a href="brands.html">Brands</a>
+          <a href="#">Seasons</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="breadcrumb-container">
+        <span> <a href="index.html" aria-label="breadcrumb">Home</a></span>
+        <span><img src="images/arrow.png" alt="right-arrow" width="12"></span>
+        <span><a href="brands.html" aria-label="breadcrumb">Brands</a></span>
+        <span><img src="images/arrow.png" alt="right-arrow" width="12"></span>
+        <a
+            href="/brands.html"
+            aria-label="breadcrumb"
+            class="brand-breadcrumb"
+          ></a
+        ></span>
+        <span><img src="images/arrow.png" alt="right-arrow" width="12" /></span>
+        <span class="selected-crumb"
+          ><a href="" aria-label="breadcrumb" class="product-breadcrumb"></a
+        ></span>
+      </div>
+    <div class="product-container">
+      <img src="" alt="large product image" width="550">
+      <div class="product-details-container">
+        <h3>
+          <a href="" aria-label="product-brand-link" class="product-brand"></a>
+        </h3>
+        <h2 class="product-name"></h2>
+        <p class="product-price"></p>
+        <p>Color: <span class="product-color"></span></p>
+        <div class="product-form-container">
+          <form action="">
+            <div>
+              <select name="size" id="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div>
+              <button>Add to cart</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/catagories.js"></script>
+  <script src="js/product.js"></script>
+  </body>
+</html>

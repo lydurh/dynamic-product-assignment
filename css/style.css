@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  margin: 20px;
+  padding-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 20px;
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  color: white;
+}
+
+.productlist main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  gap: 30px;
+  margin-left: 200px;
+}
+
+.productlist main h2 {
+  grid-column: 1/-1;
+  text-align: left;
+}
+
+.product main {
+  display: grid;
+}
+
+.product main .breadcrumbs,
+.product main img {
+  grid-column: 1/-1;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  display: flex;
+  word-spacing: 20px;
+}
+
+.product image {
+  grid-area: 1/1;
+}
+
+.product .purchaseBox {
+  grid-area: 1/5;
+}
+
+body {
+  padding: 0;
+  margin: calc((100vh / 25) * 1.563) calc((100vw / 25) * 1.563);
+  font-weight: 400;
+  line-height: 1.563;
+}
+.letterLinks ol {
+  margin-top: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+}
+
+/* 
+style baby
+*/
+
+h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.front-page h1 {
+  height: 3em;
+}
+
+h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+dl {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #03343f;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/productlist-style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <title>Productlist</title>
+  </head>
+  <body class="productlist">
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo">LHclothing</a>
+        <nav>
+          <a href="#">Shop all</a>
+          <a href="brands.html">Brands</a>
+          <a href="#">Seasons</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="breadcrumb-container">
+        <span><a href="/index.html" aria-label="breadcrumb">Home</a></span>
+        <span><img src="images/arrow.png" alt="right-arrow" width="12" /></span>
+        <span><a href="brands.html" aria-label="breadcrumb">Brands</a></span>
+        <span><img src="images/arrow.png" alt="right-arrow" width="12" /></span>
+        <span class="selected-crumb"
+          ><a href="" aria-label="breadcrumb" class="brand-breadcrumb"></a
+        ></span>
+      </div>
+      <div class="products-container">
+        <h1>Products</h1>
+        <template id="header-template">
+          <h2 id="brand-name-header"></h2>
+        </template>
+        <div class="products-list-container">
+          <template id="product-list-template">
+            <a href="#" aria-label="product-card-link">
+              <div class="product-card">
+                <img src="" alt="" />
+                <div class="brand-type-container">
+                  <p class="product-list-brand"></p>
+                  <p class="product-list-price"></p>
+                </div>
+                <p class="product-list-type"></p>
+              </div>
+            </a>
+          </template>
+        </div>
+      </div>
+    </main>
+    <script src="js/productlist.js"></script>
+    <script src="js/categories.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+.products-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.products-container h2 {
+  font-size: 2em;
+}
+
+.products-list-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 10px;
+}
+.brand-type-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-container p {
+  margin: 5px;
+  font-size: 15px;
+}
+.product-card img {
+  max-width: 100%;
+}
+
+.product-discount {
+  padding-top: 0px;
+  color: red;
+  display: flex;
+  justify-content: end;
+}
+
+.sold-out {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.sold-out p {
+  align-self: center;
+  font-size: 2rem;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .front-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

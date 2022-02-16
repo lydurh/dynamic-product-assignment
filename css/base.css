@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+body {
+  background-color: #03343f;
+}
+
+h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 4em;
+}
+
+h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+/* logo */
+h4 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+}
+
+p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+dl {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+a.logo {
+  font-size: 2em;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+nav > a {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: flex;
+    width: 60%;
+  }
+}
+
+/* breadcrumbs */
+
+.breadcrumbs-container,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 20px;
+}
+
+li {
+  list-style-type: none;
+}
